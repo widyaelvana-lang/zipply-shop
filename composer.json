@@ -6,7 +6,7 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.5.7",
+        "php": "^8.5.11",
         "laravel/framework": "^13.14",
         "laravel/tinker": "^3.0"
         
@@ -51,7 +51,7 @@
             "@php artisan test"
         ],
         "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
             
         ],
         "post-update-cmd": [
